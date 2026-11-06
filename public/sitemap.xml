@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Core Canonical Pages -->
+  <url>
+    <loc>https://avinextechnologies.com/</loc>
+    <lastmod>2026-11-06</lastmod>
+  </url>
+  <url>
+    <loc>https://avinextechnologies.com/about-us</loc>
+    <lastmod>2026-11-06</lastmod>
+  </url>
+  <url>
+    <loc>https://avinextechnologies.com/services</loc>
+    <lastmod>2026-11-06</lastmod>
+  </url>
+  <url>
+    <loc>https://avinextechnologies.com/products</loc>
+    <lastmod>2026-11-06</lastmod>
+  </url>
+  <url>
+    <loc>https://avinextechnologies.com/contact-us</loc>
+    <lastmod>2026-11-06</lastmod>
+  </url>
+
+  <!-- Canonical Product Category Pages -->
+  <url>
+    <loc>https://avinextechnologies.com/products/cns-aviation</loc>
+    <lastmod>2026-11-06</lastmod>
+  </url>
+  <url>
+    <loc>https://avinextechnologies.com/products/radios</loc>
+    <lastmod>2026-11-06</lastmod>
+  </url>
+  <url>
+    <loc>https://avinextechnologies.com/products/electrical</loc>
+    <lastmod>2026-11-06</lastmod>
+  </url>
+  <url>
+    <loc>https://avinextechnologies.com/products/ups-power</loc>
+    <lastmod>2026-11-06</lastmod>
+  </url>
+  <url>
+    <loc>https://avinextechnologies.com/products/avr-power</loc>
+    <lastmod>2026-11-06</lastmod>
+  </url>
+  <url>
+    <loc>https://avinextechnologies.com/products/fire-safety</loc>
+    <lastmod>2026-11-06</lastmod>
+  </url>
+  <url>
+    <loc>https://avinextechnologies.com/products/cctv-security</loc>
+    <lastmod>2026-11-06</lastmod>
+  </url>
+  <url>
+    <loc>https://avinextechnologies.com/products/system-integration</loc>
+    <lastmod>2026-11-06</lastmod>
+  </url>
+  <url>
+    <loc>https://avinextechnologies.com/products/procurement-sourcing</loc>
+    <lastmod>2026-11-06</lastmod>
+  </url>
+</urlset>

@@ -1,22 +1,53 @@
-# Sync .project/sourceTexts/ folder (source text files)
+# Dependencies
+node_modules/
 
-# Don't sync user-specific SQLite databases
+# Build output (Cloudflare Pages builds from source)
+dist/
+
+# Environment variables (NEVER commit secrets)
+.env
+.env.local
+.env.development
+.env.production
+.env.*.local
+
+# Sanity Studio (separate deployment)
+studio-avinex-technologies/node_modules/
+studio-avinex-technologies/dist/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Playwright and test logs
+.playwright-mcp/
+test-results/
+playwright-report/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Project / Tool specific
 .project/*.sqlite
-
-# Don't sync SQLite auxiliary files
 .project/*.sqlite-wal
 .project/*.sqlite-shm
-
-# Don't sync temporary files
 .project/.temp/**
-
-# Don't sync user-specific files
 .project/complete_drafts.txt
 .project/localProjectSettings.json
 .project/localProjectSwap.json
 copilot-messages.log
 
-# Archive formats
+# Archives and binaries
 *.zip
 *.rar
 *.7z
@@ -27,8 +58,6 @@ copilot-messages.log
 *.gz
 *.bz2
 *.xz
-
-# Windows executables and installers
 *.exe
 *.msi
 *.bat
@@ -36,17 +65,16 @@ copilot-messages.log
 *.com
 *.scr
 *.dll
-
-# macOS executables and disk images
 *.dmg
 *.pkg
-
-# Disk images and virtual machine files
 *.iso
 *.img
 *.vhd
 *.vmdk
 
-# System files
-.DS_Store
+# Attachments
 .project/attachments/files/**
+
+# Antigravity / AI agent artifacts
+.agents/
+.gemini/
